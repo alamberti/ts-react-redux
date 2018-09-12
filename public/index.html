@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boiler Plate</title>
+
+    <link type="text/css" rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <noscript>
+        <!-- Message to display if JavaScript is not enabled in the browser -->
+        <div class="no-js">
+            <section class="browser-message">
+                <h1 class="browser-message__title">
+                    <div class="emoji">
+                        <span class="eyes">:</span>
+                        <span class="mouth">(</span>
+                    </div>
+                    <div class="browser-message__layout">
+                        <span data-layout="first">JavaScript</span>
+                        <span data-layout="second">is disabled</span>
+                        <span data-layout="third">on your browser</span>
+                    </div>
+                </h1>
+                <p class="browser-message__content">This application requires JavaScript to be enabled.</p>
+                <p class="browser-message__content">Please enable javascript in your browser and reload this page.</p>
+            </div>
+        </div>
+    </noscript>
+
+    <div id="app-root"></div>
+
+    <!-- Dependencies -->
+    <script src="../node_modules/react/umd/react.development.js"></script>
+    <script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
+
+    <!-- Main -->
+    <script src="../dist/bundle.min.js"></script>
+</body>
+</html>

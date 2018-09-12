@@ -1,0 +1,11 @@
+# vscode debug info
+.vscode
+
+# modules
+node_modules
+
+# testing
+coverage
+
+# generated production files
+dist

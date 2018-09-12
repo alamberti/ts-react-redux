@@ -1,0 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+ * App specific defaults
+ */
+.no-js {
+	background-color: #92a6a7;
+	background: linear-gradient(to bottom, #92a6a7 0%,#92a6a7 23%,#ffffff 24%,#ffffff 26%);
+    height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.browser-message {
+	background-color: #92a6a7;
+	font-family: sans-serif;
+	color: #000000;
+	padding: 20px;
+	margin-top: 10vh;
+	box-shadow: 0px 180px 5px -148px rgba(0,0,0,0.15);
+	border-radius: 50%;
+	width: 100%;
+	padding-bottom: 105px;
+}
+
+.browser-message .emoji {
+	position: relative;
+	width: 200px;
+}
+
+.browser-message .emoji .eyes {
+	transform: rotate(90deg);
+	position: absolute;
+	top: -34px;
+	right: calc(30% + 5px);
+	font-size: 11rem;
+}
+
+.browser-message .emoji .mouth {
+	transform: rotate(90deg);
+	position: absolute;
+	top: 30px;
+	right: 35%;
+	font-size: 9rem;
+}
+
+.browser-message__title {
+	text-transform: uppercase;
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+
+.browser-message span{
+	display: block;
+}
+
+.browser-message [data-layout="first"] {
+	font-size: 3.5rem;
+	letter-spacing: 1px;
+}
+
+.browser-message [data-layout="second"] {
+	font-size: 3.5rem;
+}
+
+.browser-message [data-layout="third"] {
+	font-size: 2rem;
+	letter-spacing: 1.5px;
+}
+
+.browser-message__content {
+	margin-top: 0.5em;
+	text-align: center;
+}
