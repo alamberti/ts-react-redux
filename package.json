@@ -15,8 +15,13 @@
     "dependencies": {
         "@types/react": "^16.4.14",
         "@types/react-dom": "^16.0.7",
+        "@types/react-redux": "^6.0.8",
         "react": "^16.5.0",
-        "react-dom": "^16.5.0"
+        "react-dom": "^16.5.0",
+        "react-redux": "^5.0.7",
+        "react-router-dom": "^4.3.1",
+        "redux": "^4.0.0",
+        "redux-devtools": "^3.4.1"
     },
     "devDependencies": {
         "awesome-typescript-loader": "^5.2.1",
