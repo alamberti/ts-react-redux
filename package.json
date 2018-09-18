@@ -10,7 +10,7 @@
         "start": "webpack",
         "lint:client": "tslint -c tslint.json 'src/**/*.ts*'",
         "precommit": "pretty-quick --staged",
-        "prepush": "lint:client"
+        "prepush": "yarn run lint:client"
     },
     "dependencies": {
         "@types/react": "^16.4.14",
