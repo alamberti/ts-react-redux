@@ -1,8 +1,8 @@
-import path from 'path';
+var path = require('path');
 
 module.exports = {
-    mode: 'development',
     entry: './src/client/index.tsx',
+    mode: 'development',
     output: {
         filename: 'bundle.min.js',
         path: path.resolve(__dirname, 'dist'),
